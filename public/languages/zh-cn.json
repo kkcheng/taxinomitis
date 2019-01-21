@@ -1,6 +1,6 @@
 {
     "APP": {
-        "TITLE": "儿童机器学习",
+        "TITLE": "儿童機器學習",
 
         "BACK": " 返回 ",
         "BACKTOPROJECT": "&lt; 返回项目",
@@ -10,7 +10,7 @@
 
         "ADD": "添加",
         "CANCEL": "取消",
-        "DELETE": "Delete",
+        "DELETE": "刪除",
         "EDIT": "Edit",
         "TEST": "Test",
 
