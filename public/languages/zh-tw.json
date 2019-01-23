@@ -32,7 +32,7 @@
         "IN20MINS": " 20分鐘...... ",
         "WHAT": {
             "TITLE": "甚麼？",
-            "BODY": "該工具通過提供訓練機器學習系統和用它們構建物品的實踐經驗讓兒童體驗機器學習。<br/> <br/>它為培訓機器學習模型提供了一個易於使用的指導環境用於分類文本,數位或識別圖像。<br/> <br/>這是建立在現有的向兒童介紹和教授編碼的努力的基礎上,將這些模型添加到<a href ='https://scratch.mit.edu/關於' target ='_blank'> Scratch </a>（一種廣泛使用的教育編碼平臺）,允許孩子們用他們訓練過的機器學習模型創建專案和構建遊戲。<br/> <br/>到瞭解更多,看看: "
+            "BODY": "該工具通過提供訓練機器學習系統和用它們構建物品的實踐經驗讓兒童體驗機器學習。<br/> <br/>它為培訓機器學習模型提供了一個易於使用的指導環境用於分類文本,數位或識別圖像。<br/> <br/>這是建立在現有的向兒童介紹和教授編碼的努力的基礎上,將這些模型添加到<a href ='https://scratch.mit.edu/關於' target ='_blank'> Scratch </a>（一種廣泛使用的教育編碼平臺）,允許孩子們用他們訓練過的機器學習模型創建專案和構建遊戲。<br/> <br/>想瞭解更多,看看: "
         },
         "WHY": {
             "TITLE": "為甚麼？",
@@ -40,7 +40,7 @@
         },
         "TECH": {
             "TITLE": " 技術 ",
-            "BODY": "該工具完全基於網路，無需安裝或複雜的設置即可使用。<br/> <br/>它專為學校和志願者編寫的課堂設計而設計兒童，並為教師或小組負責人提供管理頁面，以便能夠管理和管理學生的存取權限。<br/> <br/>它由<a target ='_blank' href='http://dalelane.co.uk/'>Dale Lane </a>使用來自<a target='_blank' href='https://www.ibm.com/watson/developercloud/'> IBM Watson Developer Cloud的API </ a>。",
+            "BODY": "該工具完全基於網路，無需安裝或複雜的設置即可使用。<br/> <br/>它專為學校和志願者編寫的課堂設計而設計，並為教師或小組負責人提供管理頁面，以便能夠管理學生的存取權限。<br/> <br/>它由<a target ='_blank' href='http://dalelane.co.uk/'>Dale Lane </a>使用來自<a target='_blank' href='https://www.ibm.com/watson/developercloud/'> IBM Watson Developer Cloud的API </ a>。",
             "LOGIN": "開始: "
         }
     },
@@ -51,7 +51,7 @@
             "DESCRIPTION": "來自@MLforKids的新聞和更新"
         },
         "MENTIONS": {
-            "TITLE": "提及和媒體",
+            "TITLE": "媒體報導",
             "DESCRIPTION": "從wakelet.com載入提及和媒體"
         }
     },
@@ -71,12 +71,12 @@
         "ADMIN_LABEL": "轉到<strong>管理頁面</strong> ",
         "PROJECT_LABEL": "轉到<strong>項目</strong> ",
         "STEP_1_TEXT": "收集您想要識別的事物的例子",
-        "STEP_2_TEXT": "使用示例訓練電腦能夠識別它們",
+        "STEP_2_TEXT": "通過示例，訓練電腦能夠識別它們",
         "STEP_3_TEXT": "在Scratch中製作一個使用電腦識別它們的能力的遊戲"
     },
     "LOGIN": {
         "TITLE": "機器學習入門",
-        "WELCOME": "歡迎！您有興趣擁有一個帳戶登錄兒童機器學習,這很棒。",
+        "WELCOME": "歡迎！您有興趣擁有一個帳戶登錄兒童機器學習，這很棒。",
         "ALREADY_LOGGEDIN": " <strong>信息: </strong>已登錄",
         "ERROR": " <strong>錯誤: </strong> {{message}} ",
         "ERROR_HELP": "如果這種情況持續發生,請訪問我們的説明部分",
@@ -91,7 +91,7 @@
         "TRY_TITLE": "嘗試不註冊",
         "TRY_NOW": "立即嘗試",
         "WHO_YOU": "你是誰？",
-        "TEACHER": "編碼俱樂部的老師或領導者",
+        "TEACHER": "老師或編碼俱樂部的帶領者",
         "STUDENT": "一個學生",
         "FORGOT_TEXT": "忘記了你的用戶名或密碼？沒關係 - 我們有時會忘記一些事情。",
         "ARE_YOU_A_STUDENT": "Are you a student?",
@@ -103,7 +103,7 @@
     },
     "SIGNUP": {
         "TEACHER": {
-            "TITLE": "你是編碼俱樂部的老師或領導者嗎？",
+            "TITLE": "你是老師或編碼俱樂部的帶領者嗎？",
             "INFO1": "如果您想訪問學生,請在下面創建一個課程帳戶。",
             "INFO2": "有兩種類型的帳戶 - 取決於誰設置它。"
         },
