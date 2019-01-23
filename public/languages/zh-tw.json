@@ -1,0 +1,967 @@
+{
+    "APP": {
+        "TITLE": "兒童機器學習",
+
+        "BACK": " 返回 ",
+        "BACKTOPROJECT": "&lt; 返回項目",
+        "ERROR": "錯誤: ",
+        "WARNING": "警告: ",
+        "INFO": "信息: ",
+
+        "ADD": "添加",
+        "CANCEL": "取消",
+        "DELETE": "刪除",
+        "EDIT": "修改",
+        "TEST": "測試",
+
+        "ABOUT": "關於",
+        "TEACHER": "老師",
+        "PROJECTS": "項目",
+        "WORKSHEETS": "工作表",
+        "NEWS": "新聞",
+        "HELP": "幫助",
+        "LOGIN": "登錄",
+        "LOGOUT": "註銷",
+
+        "BETA": " Beta版 ",
+        "INCOMPLETE": "不完整！"
+    },
+    "ABOUT": {
+        "TITLE": "兒童機器學習",
+        "IN6SECS": "在6秒內...... ",
+        "IN20MINS": " 20分鐘...... ",
+        "WHAT": {
+            "TITLE": "什麼？",
+            "BODY": "該工具通過提供培訓機器學習系統和用它們構建物品的實踐經驗來介紹機器學習。<br/> <br/>它為培訓機器學習模型提供了一個易於使用的指導環境用於分類文本,數位或識別圖像。<br/> <br/>這是建立在現有的向兒童介紹和教授編碼的努力的基礎上,將這些模型添加到<a href ='https://scratch.mit.edu/關於' target ='_blank'> Scratch </a>（一種廣泛使用的教育編碼平臺）,允許孩子們用他們訓練過的機器學習模型創建專案和構建遊戲。<br/> <br/>到瞭解更多,看看: "
+        },
+        "WHY": {
+            "TITLE": "為什麼？",
+            "BODY": "機器學習就在我們身邊。我們每天都使用機器學習系統 - 例如垃圾郵件篩檢程式，推薦引擎，語言翻譯服務，聊天機器人和數位助理，搜尋引擎和欺詐檢測系統。<br/> <br/>機器學習系統很快就能駕駛我們的汽車，並幫助醫生診斷和治療我們的疾病。<br/> <br/>讓孩子們瞭解我們的世界是如何工作的。理解能力和含義的方法是能夠用自己的技術構建。<br/> <br/>要瞭解更多資訊，請閱讀: <a target ='_blank' class='btn btn-primary' href='http://dalelane.co.uk/blog/?p=3513'> 向孩子們介紹機器學習</a>"
+        },
+        "TECH": {
+            "TITLE": " 技術 ",
+            "BODY": "該工具完全基於網路，無需安裝或複雜的設置即可使用。<br/> <br/>它專為學校和志願者編寫的課堂設計而設計兒童，並為教師或小組負責人提供管理頁面，以便能夠管理和管理學生的存取權限。<br/> <br/>它由<a target ='_blank' href='http://dalelane.co.uk/'>Dale Lane </a>使用來自<a target='_blank' href='https://www.ibm.com/watson/developercloud/'> IBM Watson Developer Cloud的API </ a>。",
+            "LOGIN": "開始: "
+        }
+    },
+    "NEWS": {
+        "TITLE": "新聞",
+        "UPDATES": {
+            "TITLE": "新聞與更新",
+            "DESCRIPTION": "來自@MLforKids的新聞和更新"
+        },
+        "MENTIONS": {
+            "TITLE": "提及和媒體",
+            "DESCRIPTION": "從wakelet.com載入提及和媒體"
+        }
+    },
+    "ERRORS": {
+        "PAGENOTFOUND": "找不到頁面",
+        "NOTLOGGEDIN": "未登錄",
+
+        "MISSINGPROJECTID": "缺少項目ID。回到",
+        "IFPERSISTENT": "如果這種事情繼續發生,請",
+
+        "LETMEKNOW": "讓我知道"
+    },
+    "WELCOME": {
+        "TITLE": "教電腦玩遊戲",
+        "GET_STARTED": "開始使用",
+        "LEARN_MORE": "瞭解更多",
+        "ADMIN_LABEL": "轉到<strong>管理頁面</strong> ",
+        "PROJECT_LABEL": "轉到<strong>項目</strong> ",
+        "STEP_1_TEXT": "收集您想要識別的事物的例子",
+        "STEP_2_TEXT": "使用示例訓練電腦能夠識別它們",
+        "STEP_3_TEXT": "在Scratch中製作一個使用電腦識別它們的能力的遊戲"
+    },
+    "LOGIN": {
+        "TITLE": "機器學習入門",
+        "WELCOME": "歡迎！您有興趣擁有一個帳戶登錄兒童機器學習,這很棒。",
+        "ALREADY_LOGGEDIN": " <strong>信息: </strong>已登錄",
+        "ERROR": " <strong>錯誤: </strong> {{message}} ",
+        "ERROR_HELP": "如果這種情況持續發生,請訪問我們的説明部分",
+        "FIRST_TIME": "第一次來這裡？",
+        "SIGN_UP": "註冊",
+        "WHY_REGISTER": "為什麼要註冊？",
+        "WHY_REGISTER_INTRO_1": " <strong>您無需註冊或創建帳戶</strong>即可使用兒童機器學習功能,但如果您這樣做,則可以解鎖該工具的一些功能。",
+        "WHY_REGISTER_INTRO_2": "下面的網格說明了如果按一下\"立即試用\"而無需註冊,以及如果您創建一個帳戶登錄時可以執行的操作之間的區別。",
+        "ALREADY_REGISTERED": "已經註冊？",
+        "LOGIN": "登錄",
+        "FORGOT_DETAILS": "忘了你的詳細資訊？",
+        "TRY_TITLE": "嘗試不註冊",
+        "TRY_NOW": "立即嘗試",
+        "WHO_YOU": "你是誰？",
+        "TEACHER": "編碼俱樂部的老師或領導者",
+        "STUDENT": "一個學生",
+        "FORGOT_TEXT": "忘記了你的用戶名或密碼？沒關係 - 我們有時會忘記一些事情。",
+        "ARE_YOU_A_STUDENT": "Are you a student?",
+        "ARE_YOU_A_STUDENT_INTRO_1": "If your class is already using this tool, ask your teacher or coding group leader to create you an account.",
+        "ARE_YOU_A_STUDENT_INTRO_2": "If your class isn't already using the tool, ask your teacher or coding group leader to get in touch.",
+        "RESET_STUDENT_PASSWORD_1": "If you're a student, we don't have your email address to be able to send you a password-reset email.",
+        "RESET_STUDENT_PASSWORD_2": "That's no problem, though!",
+        "RESET_STUDENT_PASSWORD_3": "Just ask your teacher or group leader who first signed you up. They will be able to reset your password from their Admin page."
+    },
+    "SIGNUP": {
+        "TEACHER": {
+            "TITLE": "你是編碼俱樂部的老師或領導者嗎？",
+            "INFO1": "如果您想訪問學生,請在下面創建一個課程帳戶。",
+            "INFO2": "有兩種類型的帳戶 - 取決於誰設置它。"
+        },
+        "UNMANAGED": {
+            "TITLE": "創建<strong>非託管</strong>類帳戶",
+            "INTRO": "如果您樂意自己設置和管理課程帳戶,那麼現在就可以做到！",
+            "LISTINTRO": "你需要: ",
+            "LIST_CREATEACCOUNT": "在IBM Cloud上創建一個帳戶",
+            "LIST_CREATEAPIKEYS": "為培訓機器學習模型所需的Watson雲服務創建API金鑰",
+            "LIST_ENTERAPIKEYS": "在此機器學習中為孩子們輸入API鍵工具",
+            "HELP": "所有這些都可以使用逐步說明（帶螢幕截圖）。"
+        },
+        "MANAGED": {
+            "TITLE": "創建<strong>託管</strong>類帳戶",
+            "INTRO": "如果您希望Dale設置班級帳戶,請使用下面的按鈕發送包含以下資訊的電子郵件: ",
+            "LIST_NUMBEROFSTUDENTS": "大概需要多少學生帳戶",
+            "LIST_NAMEOFSCHOOL": "帳戶所在的學校或編碼組的名稱",
+            "EMAIL": "電子郵件"
+        }
+    },
+    "PROJECTS": {
+        "TITLE": "你的機器學習項目",
+        "ADDNEWPROJECT": "添加一個新項目",
+        "CREATEFIRSTPROJECT": "點擊右邊的'加號'按鈕創建你的第一個項目。",
+        "RECOGNISING": "識別",
+        "AS": "  "
+    },
+    "NEWPROJECT": {
+        "TITLE": "開始一個新的機器學習專案",
+        "PROJECT_NAME": {
+            "TITLE": "項目名稱",
+            "NOTES": "給你的專案命名,描述你將嘗試教授電腦識別的東西。"
+        },
+        "WHOLE_CLASS_PROJECT": {
+            "TITLE": "全班項目？",
+            "NOTES_1": "如果您希望全班同學能夠共同完成此項目,請勾選此項。",
+            "NOTES_2": "這對於教授眾包作為培訓機器學習專案的方法的專案非常有用。"
+        },
+        "TYPES": {
+            "LABEL": "識別",
+            "NOTES_1": "你想教電腦識別什麼類型的東西？",
+            "NOTES_2": "對於單詞,句子或段落,請選擇\" text \" ",
+            "NOTES_3": "對於照片,圖表和圖片,請選擇\" images \" ",
+            "NOTES_4": "對於數位組或多個選項,請選擇\"數位\" "
+        },
+        "LANGUAGE": {
+            "LABEL": "語言",
+            "NOTES": "這個專案中的文字是什麼語言？"
+        },
+        "FIELDS": {
+            "TYPE": {
+                "TITLE": "數數值型別",
+                "NUMBER": "數字",
+                "MULTIPLE_CHOICE": "多選"
+            },
+            "CHOICES": {
+                "TITLE": "選擇: ",
+                "LABEL": "添加選擇"
+            },
+            "NEWFIELD": {
+                "DESCRIBE_FIELD": "為此欄位命名以描述值",
+                "MULTICHOICE": "如果它可以被描述為從幾個選項中選擇,請選擇\"多項選擇\"。",
+                "ADD_FIRST_FIELD": "鍵入要在多項選擇清單中使用的選項,然後按Enter鍵。",
+                "ADD_ANOTHER_FIELD": "鍵入要在多項選擇清單中使用的其他選項,然後按Enter鍵。"
+            },
+            "NEWVALUE": {
+                "ADD_FIRST_VALUE": "開始描述每個示例中包含的值,通過按一下\"添加值\"按鈕來訓練電腦。",
+                "VALUES_LIMIT": "項目中不允許超過10個值。"
+            }
+        },
+        "CREATE": "創建",
+        "ERRORS": {
+            "REQUIRED": "This is required!",
+            "TOOLONG": "That's too long!"
+        }
+    },
+    "PROJECT": {
+        "TRAIN": {
+            "TITLE": "訓練",
+            "BODY": "收集您希望電腦識別的示例。"
+        },
+        "LEARNANDTEST": {
+            "TITLE": "學習和測試",
+            "BODY": "使用示例訓練電腦識別"
+        },
+        "MAKES": {
+            "TITLE": "Make",
+            "BODY": "Use the machine learning model you've trained to make a game or app, in Scratch or in Python"
+        },
+        "SCRATCH": {
+            "TITLE": " Scratch ",
+            "BODY": "使用您訓練過的機器學習模型,以Scratch製作遊戲。"
+        },
+        "PYTHON": {
+            "TITLE": " Python ",
+            "BODY": "使用您在Python程式中訓練過的機器學習模型。"
+        },
+        "APPINVENTOR": {
+            "TITLE": " App Inventor ",
+            "BODY": "創建一個使用您的機器學習模型的移動應用程式"
+        },
+        "SCRATCH3": {
+            "TITLE": " Scratch 3 ",
+            "BODY": "在新版Scratch中使用您的機器學習模型"
+        }
+    },
+    "TRAINING": {
+        "TITLE": "訓練",
+        "ADDLABEL": "添加新標籤",
+        "CREATEFIRSTLABEL": "點擊右邊的'加號'按鈕添加你的第一個訓練集。",
+        "CROWDSOURCEDEMPTY": "在您的老師創建培訓桶之後刷新此頁面。",
+        "ADDEXAMPLE": "添加示例",
+        "ADDURL": " www ",
+        "ADDWEBCAM": "攝像頭",
+        "ADDDRAWING": "畫畫",
+        "DRAGIMAGES": "從其他流覽器視窗拖動圖片並將其放在這裡",
+        "NEWLABEL": {
+            "INTRO": "輸入要識別的新標籤",
+            "ERROR": "僅在標籤中使用字母和數位"
+        },
+        "NEWEXAMPLE": {
+            "INTRO": "輸入一個例子",
+            "INTROURL": "輸入作為示例的圖片的網址",
+            "INTRODRAWING": "畫一個新的例子",
+            "INTROWEBCAM": "添加新的例子",
+            "ERROR": "您不能使用定位字元或分行符號。",
+            "REQUIRED": "您必須在示例中包含所有欄位的值",
+            "PATTERNNUMBER": "這看起來不像是一個數字",
+            "PATTERNURL": "這需要是圖片的網址",
+            "WEBCAMFAIL": "抱歉！我們無法讓網路攝像頭為您工作。",
+            "WEBCAMERROR": "我們從您的網路流覽器收到的消息是: "
+        }
+    },
+    "MODELS": {
+        "TITLE": "機器學習模型",
+        "TRAIN": "培養新機器學習模式",
+        "CANCEL": "取消訓練",
+        "DELETE": "刪除此模型",
+        "TEST_CANVAS": "Draw something to test your model with",
+        "TEST_WEBCAM": "Take a photo to test your model with",
+        "WHATHAVEYOUDONE": {
+            "TITLE": "你做了什麼？",
+            "PLEASEWAIT": "這通常需要幾分鐘,但如果訓練電腦非常繁忙,可能需要更長的時間。",
+            "FAIL": "不幸的是,出了點問題。",
+
+            "TRAINING": {
+                "CROWDSOURCED": {
+                    "TEXT": "您的班級正在使用您收集的文本示例來訓練機器學習模型。",
+                    "IMAGES": "您的班級正在使用您收集的圖像示例來訓練機器學習模型。",
+                    "NUMBERS": "您的班級正在使用您收集的數位示例來訓練機器學習模型。"
+                },
+                "INDIVIDUAL": {
+                    "TEXT": "您已經開始使用您收集的文本示例來訓練機器學習模型。",
+                    "IMAGES": "您已經開始使用您收集的圖像示例來訓練機器學習模型。",
+                    "NUMBERS": "您已經開始使用您收集的數位示例來訓練機器學習模型。"
+                },
+                "SINCE": "由於這是在訓練"
+            },
+            "READY": {
+                "CROWDSOURCED": {
+                    "TEXT": "您的班級已培訓機器學習模型,以識別文本何時",
+                    "IMAGES": "你的班級已經培訓了一種機器學習模型來識別圖像是什麼時候",
+                    "NUMBERS": "您的班級已培訓機器學習模型,以識別數位何時"
+                },
+                "INDIVIDUAL": {
+                    "TEXT": "您已經培訓了一種機器學習模型來識別文本的時間",
+                    "IMAGES": "你已經訓練了一個機器學習模型來識別圖像是什麼時候",
+                    "NUMBERS": "您已經培訓了一種機器學習模型來識別數位是什麼時候"
+                },
+                "CREATED": {
+                    "TEACHER": "你的老師創造了模型",
+                    "YOU": "你創造了模型"
+                },
+                "TRAINING": {
+                    "CLASS": "你的班級收集了: ",
+                    "YOU": "你收集了: "
+                }
+            },
+            "ERROR": {
+                "CROWDSOURCED": {
+                    "CLASS": {
+                        "TEXT": "您的老師嘗試使用您班級收集的文本示例來訓練機器學習模型。",
+                        "IMAGES": "您的老師嘗試使用您班級收集的圖像示例來訓練機器學習模型。",
+                        "NUMBERS": "您的老師嘗試使用您班級收集的數位示例來訓練機器學習模型。"
+                    },
+                    "YOU": {
+                        "TEXT": "您嘗試使用班級收集的文本示例來訓練機器學習模型。",
+                        "IMAGES": "您嘗試使用您的班級收集的圖像示例來訓練機器學習模型。",
+                        "NUMBERS": "您嘗試使用班級收集的數位示例來訓練機器學習模型。"
+                    }
+                },
+                "INDIVIDUAL": {
+                    "TEXT": "您嘗試使用您收集的文本示例來訓練機器學習模型。",
+                    "IMAGES": "您嘗試使用您收集的圖像示例來訓練機器學習模型。",
+                    "NUMBERS": "您嘗試使用收集的數位示例來訓練機器學習模型。"
+                }
+            },
+            "IDLE": {
+                "NOLABELS": {
+                    "CROWDSOURCED": {
+                        "TEXT": "你的班級說你想收集文字的例子。",
+                        "IMAGES": "你的班級說你想收集圖像的例子。",
+                        "NUMBERS": "你的班級說你想收集數字的例子。"
+                    },
+                    "INDIVIDUAL": {
+                        "TEXT": "你說你想收集文字的例子。",
+                        "IMAGES": "你說你想要收集圖像的例子。",
+                        "NUMBERS": "你說你想收集數字的例子。"
+                    }
+                },
+                "NODATA": {
+                    "CROWDSOURCED": {
+                        "TEXT": "您的班級表示您希望收集電腦文本的示例,以便識別文本的時間",
+                        "IMAGES": "你的班級說你要收集圖像的例子,以便電腦識別出圖像的時間",
+                        "NUMBERS": "您的班級表示您希望收集電腦的數位示例以識別數位何時"
+                    },
+                    "INDIVIDUAL": {
+                        "TEXT": "您說要收集電腦文本的示例,以便識別文本的時間",
+                        "IMAGES": "你說你要收集圖像的例子,讓電腦識別圖像的時間",
+                        "NUMBERS": "你說你要收集電腦數位的例子來識別數位是什麼時候"
+                    }
+                },
+                "NOEXAMPLES": {
+                    "CLASS": "到目前為止,您的班級尚未收集任何示例。",
+                    "YOU": "到目前為止,你尚未收集任何例子。"
+                },
+                "DATA": {
+                    "CROWDSOURCED": {
+                        "TEXT": "您的班級已經收集了電腦用於識別文本的文本示例",
+                        "IMAGES": "您的班級已經收集了電腦用於識別圖像的圖像示例",
+                        "NUMBERS": "您的班級已收集電腦的數位示例,用於識別數位何時"
+                    },
+                    "INDIVIDUAL": {
+                        "TEXT": "您收集了電腦用於識別文本的文本示例",
+                        "IMAGES": "您已經收集了電腦用於識別圖像的圖像示例",
+                        "NUMBERS": "您已收集電腦的數位示例,用於識別數位何時"
+                    },
+                    "COLLECTED": {
+                        "CLASS": "他們收集了: ",
+                        "YOU": "你收集了: "
+                    }
+                }
+            }
+        },
+        "WHATSNEXT": {
+            "TITLE": "下一步是什麼？",
+            "PLEASEWAIT": "你可以等待機器學習模型完成訓練。",
+            "OFFERQUIZ": "或者,你可以嘗試下面的機器學習測驗,檢查你學到了什麼。",
+            "FAIL": "來自訓練電腦的錯誤資訊如下所示。如果這對您有意義,請嘗試解決問題。否則,如果它只是一個隨機錯誤,可能值得再次嘗試。",
+
+            "IDLE": {
+                "NOLABELS": "下一步是轉到<strong>培訓</strong>頁面。為您希望教授電腦能夠識別的每一項內容添加一些標籤。",
+                "ONELABEL": {
+                    "EXPLANATION": "你只說了一件你希望電腦能夠識別的東西: {{label}} ",
+                    "ISTHATALL": "這是您希望電腦能夠識別的唯一內容嗎？",
+                    "NO": " <strong>否？</strong> <br/>返回<strong>訓練</strong>頁面。<br/>為每個要教授的內容添加更多標籤電腦能夠識別。<br/> <br/> ",
+                    "YES": " <strong>是嗎？</strong>您需要先做一些工作。<br/>為了讓電腦能夠學會如何識別\" {{label}} \",你需要給它一些不是{{label}}的東西的例子。<br/>回到<strong>訓練</strong>頁面並為不存在的事物的例子創建一個新的標籤。\"{{label}}你可以稱之為\"不- {{label}}\" 。"
+                },
+                "LABELS": {
+                    "NO_DATA": "下一步是轉到<strong>訓練</strong>頁面。為每個標籤添加示例。",
+                    "MORE_DATA": {
+                        "KEEP_GOING": "繼續！",
+                        "MORE_EXAMPLES": {
+                            "YOU": "返回<strong>訓練</strong>頁面,為每個標籤收集更多示例。",
+                            "CLASS": "讓您的班級返回<strong>培訓</strong>頁面,並為每個標籤收集更多示例。"
+                        },
+                        "MORE_IS_BETTER": "你獲得的越多,它應該學得越好,但你至少需要{{minimumExamples}}個例子作為絕對最小值。"
+                    },
+                    "ENOUGH_DATA": {
+                        "READY_TO_START": "準備開始電腦培訓了嗎？",
+                        "START_TRAINING": {
+                            "CROWDSOURCED": "點擊下面的按鈕,開始使用您班級目前收集的示例來訓練機器學習模型",
+                            "INDIVIDUAL": "點擊下面的按鈕,開始使用您目前收集的示例訓練機器學習模型"
+                        },
+                        "MORE_EXAMPLES": {
+                            "CROWDSOURCED": "（或者,如果您希望他們先收集更多示例,請讓您的班級返回<strong>培訓</strong>頁面。）",
+                            "INDIVIDUAL": "（或者,如果您想先收集更多示例,請返回<strong>訓練</strong>頁面。）"
+                        },
+                        "WAITING_FOR_TEACHER": "等待老師開始電腦培訓。"
+                    }
+                }
+            },
+            "READY": {
+                "TEST": {
+                    "TEXT": "嘗試測試下面的機器學習模型。輸入一個下面的文本示例,您沒有在用於訓練它的示例中包含這些文本。它會告訴您它識別它的內容,以及它對這個文本識別的信心",
+                    "IMAGES": "嘗試測試下面的機器學習模型。在下面輸入一個示例圖片,您沒有在用於訓練它的示例中包含這些圖片。它會告訴您它識別它的內容,以及它對這個圖片識別的信心。",
+                    "NUMBERS": "嘗試測試下面的機器學習模型。輸入一個下面的數字示例,您沒有在用於訓練它的示例中包含這些數字。它會告訴您它識別它的內容,以及它對這個數字識別的信心"
+                },
+                "SCRATCH": "如果電腦似乎已經學會正確識別事物,那麼你可以去Scratch並使用電腦學到的東西製作遊戲！",
+                "ADDITIONAL_TRAINING": {
+                    "MORE_EXAMPLES": {
+                        "CROWDSOURCED": "如果電腦出現太多問題,您的班級可能會想回到<strong>培訓</strong>頁面並收集更多示例。",
+                        "INDIVIDUAL": "如果電腦出現太多錯誤,您可能需要返回<strong>訓練</strong>頁面並收集更多示例"
+                    },
+                    "RETRAIN": {
+                        "YOU": "完成後,點擊下面的按鈕來訓練一個新的機器學習模型,看看額外的例子會有什麼不同！",
+                        "CLASS": "一旦你完成了這項工作,你的老師就需要培養一種新的機器學習模式。"
+                    }
+                }
+            }
+        },
+        "TRAINING": {
+            "TITLE": "正在訓練電腦的資訊: ",
+            "STARTED": "模特開始訓練: ",
+            "STATUS": "當前型號狀態: ",
+            "DETAIL": "說明: ",
+            "DELETION": "模型將在以下後自動刪除: ",
+            "LASTCHECK": "模型上次檢查: ",
+            "PROMPTREFRESH": "如果超過一分鐘,您應刷新頁面以獲取最新狀態"
+        },
+        "TESTING": {
+            "INTRO": {
+                "TEXT": "嘗試根據您的訓練添加一些文字以瞭解它是如何識別的。",
+                "IMAGES": "嘗試根據您的訓練設置圖像以查看其識別方式。",
+                "NUMBERS": "嘗試輸入一些數字,看看它是如何根據你的訓練得到認可的。"
+            },
+            "WEBCAM": "使用<strong>攝像頭</strong>進行測試",
+            "DRAWING": "通過<strong>繪圖</strong>進行測試",
+            "WWW": "用<strong> www </strong>進行測試",
+            "RECOGNISED": "被認可為<strong> {{testoutput}} </strong> "
+        },
+        "QUIZ": {
+            "TITLE": "測驗時間！",
+            "INTROQUESTION": "當你在等待模型完成訓練時,試著回答這個問題。",
+            "PREVIOUSLY_ATTEMPTED": "你以前看過這個 - 讓我們看看你有沒有記住這次正確答案！",
+            "CORRECT_ANSWER": "那是對的！",
+            "INCORRECT_ANSWER": "不,對不起。正確答案如上所示。",
+            "NEXT_QUESTION": "下一個問題"
+        }
+    },
+    "MAKES": {
+        "TITLE": "Make something with your machine learning model",
+        "SCRATCH2": "Make a project in the old version of Scratch",
+        "SCRATCH3": "Use the new version of Scratch",
+        "PYTHON": "Write Python code to use your machine learning model",
+        "APPINVENTOR": "Make a mobile app for your phone or tablet"
+    },
+    "PYTHON": {
+        "TITLE": "在Python中使用機器學習",
+
+        "NOTREADY": "您的專案尚未準備好在Python中使用。",
+        "NOMODEL": "你還沒有訓練過機器學習模型。"
+    },
+    "APPINVENTOR": {
+        "TITLE": "在App Inventor中使用機器學習",
+
+        "NOTREADY": "您的專案尚未準備好在App Inventor中使用。",
+        "NOMODEL": "你還沒有訓練過機器學習模型。",
+
+        "BETAWARNING": "這是一個早期測試版。對App Inventor的支持尚未完成,可能會有一些錯誤和問題。"
+    },
+    "SCRATCH": {
+        "TITLE": "在Scratch中使用機器學習",
+
+        "NOTREADY": "您的專案尚未準備好在Scratch中使用。",
+        "NOMODEL": "你還沒有訓練過機器學習模型。",
+
+        "LAUNCH": "在Scratch打開",
+
+        "LAUNCH_SCRATCH_BY_ITSELF": "(如果你願意的話，你可以使用 <a href='{{ url }}' class='btn btn-default' target='_blank'>Scratch by itself</a>.)",
+        "GO_TO_LEARNANDTEST": "或者轉到<strong>學習和測試</strong>頁面，瞭解有關下一步操作的一些提示。",
+
+        "MORE_BLOCKS": "您的項目會將這些塊添加到腳本中 <span style='background-color: purple; color: white; padding-left: 7px; padding-right: 7px; white-space: nowrap;'>More Blocks</span> .",
+        "EXPLAIN_RECOGNISE_LABEL": "將{{type}}放入此輸入中，它將返回您的機器學習模型識別為的標籤。",
+        "EXPLAIN_RECOGNISE_CONFIDENCE": "這將返回您的機器學習模型對於識別{{type}}類型的信心。（作為0到100之間的數字）。",
+        "EXPLAIN_LABELS": "這些塊代表您在項目中創建的標籤，因此您可以在腳本中使用它們的名稱。",
+        "EXPLAIN_COSTUMEIMAGE": "此塊位於Sprites的Looks調色板中，並將返回當前所選主題的圖像。",
+        "SAMPLE_SCRIPT": "這意味著你可以這樣做：",
+        "SAMPLE_SCREENSHOT": "它看起來像這樣 - 除了你的項目名稱。",
+        "EXPLAIN_STATUS": "專案名稱旁邊的彩色圓圈告訴您機器學習模型是否正常。",
+        "STATUS_GREEN": "表示您的模型經過培訓並準備就緒",
+        "STATUS_YELLOW": "表示您的模型尚未完成培訓",
+        "STATUS_RED": "表示出現了問題。請返回<strong>學習與測試</strong>頁面查看培訓出了什麼問題。"
+    },
+    "SCRATCH3": {
+        "TITLE": "在Scratch 3中使用機器學習",
+
+        "LAUNCH": "Open in Scratch 3"
+    },
+    "WORKSHEETS": {
+        "TITLE": "機器學習項目",
+
+        "INTRO_1": "這些專案是可下載的逐步指南,附有解釋和彩色螢幕截圖供學生遵循。",
+        "INTRO_2": "每個項目都是一個獨立的活動,寫入最後一課,並將引導孩子們創建一個遊戲或互動項目,展示人工智慧和機器學習的真實使用。",
+        "INTRO_3": "對新工作表的建議,對任何工作表的改進建議,或新專案工作表的貢獻,都非常受歡迎。",
+
+        "TYPES": {
+            "TITLE": "認識: ",
+            "ALL": "所有項目類型",
+
+            "PREFIX": "訓練電腦識別",
+
+            "TEXT": " 文本 ",
+            "IMAGES": "圖像",
+            "NUMBERS": "數字"
+        },
+
+        "LEVELS": {
+            "TITLE": "難度: ",
+            "ALL": "所有困難",
+            "BEGINNER": "初學者項目",
+            "INTERMEDIATE": "中級項目",
+            "ADVANCED": "高級專案"
+        },
+
+        "DOWNLOAD": "下載",
+
+        "MAKETYPES": {
+            "ALL": "All make types",
+
+            "SCRATCH": "Scratch projects",
+            "PYTHON": "Python projects",
+            "APPINVENTOR": "App Inventor projects",
+
+            "SCRATCH_WORKSHEET": "Worksheet for making project in Scratch",
+            "PYTHON_WORKSHEET": "Worksheet for making project in Python",
+            "APPINVENTOR_WORKSHEET": "Worksheet for making project in App Inventor"
+        },
+
+        "NO_WORKSHEETS": {
+            "NO_MATCHES": "There aren't any project worksheets that match those filters.",
+            "MAKE_YOUR_OWN": "You could adapt some of the existing worksheets or come up with a new one.",
+            "CONTRIBUTE": "If you do, please consider <a href='https://github.com/IBM/taxinomitis-docs/blob/master/README.md#contributions'>contributing it for others to use</a>."
+        },
+
+
+        "SMARTCLASSROOM": {
+            "TITLE": "智能教室",
+            "SUMMARY": "教一台電腦識別命令的含義",
+            "DESCRIPTION": "在Scratch中創建一個智慧助手,可讓您控制虛擬裝置。"
+        },
+        "MAKEMEHAPPY": {
+            "TITLE": "讓我開心",
+            "SUMMARY": "教電腦認識恭維和侮辱",
+            "DESCRIPTION": "在Scratch中創造一個角色,如果你對它說好話就會微笑,如果你說出有意義的東西就會哭泣。"
+        },
+        "SNAP": {
+            "TITLE": " Snap！",
+            "SUMMARY": "教一台電腦識別圖示的樣子",
+            "DESCRIPTION": "在Scratch中製作紙牌遊戲,學習識別卡片的圖片。"
+        },
+        "CHAMELEON": {
+            "TITLE": "變色龍",
+            "SUMMARY": "教一台電腦識別顏色",
+            "DESCRIPTION": "在Scratch製作變色龍,改變顏色以匹配其背景"
+        },
+        "MAILMANMAX": {
+            "TITLE": " Mailman Max ",
+            "SUMMARY": "教電腦識別手寫",
+            "DESCRIPTION": "在Scratch中建立一個郵政分揀辦公室,可以識別信封上的手寫郵遞區號。"
+        },
+        "CARORCUP": {
+            "TITLE": "汽車或杯子",
+            "SUMMARY": "教一台電腦識別物體的圖片",
+            "DESCRIPTION": "訓練電腦,以便能夠將照片分組。"
+        },
+        "FACELOCK": {
+            "TITLE": "面部鎖定",
+            "SUMMARY": "教電腦識別面孔",
+            "DESCRIPTION": "如果它能夠識別你的臉,那麼在Scratch中製作一個可解鎖的手機。"
+        },
+        "JOURNEYTOSCHOOL": {
+            "TITLE": "學校之旅",
+            "SUMMARY": "教一台電腦進行預測",
+            "DESCRIPTION": "訓練電腦,以便能夠預測你早上如何前往學校。"
+        },
+        "SHYPANDA": {
+            "TITLE": "害羞的熊貓",
+            "SUMMARY": "教電腦識別圖片",
+            "DESCRIPTION": "讓一隻跳舞的熊貓變得害羞,如果它看到你的樣子就停止跳舞。"
+        },
+        "VIRTUALPET": {
+            "TITLE": "Virtual Pet",
+            "SUMMARY": "Teach a computer to recognise pictures",
+            "DESCRIPTION": "Train the computer to recognise what you're doing so you can look after a virtual pet."
+        },
+        "PACMAN": {
+            "TITLE": "吃豆人",
+            "SUMMARY": "教電腦玩遊戲",
+            "DESCRIPTION": "在Scratch中創建一個吃豆人遊戲,學習如何避免鬼魂。"
+        },
+        "CHATBOTS": {
+            "TITLE": "聊天機器人",
+            "SUMMARY": "教電腦識別問題",
+            "DESCRIPTION": "創建一個聊天機器人,可以回答有關您選擇的主題的問題。"
+        },
+        "TOURISTINFO": {
+            "TITLE": "旅遊資訊",
+            "SUMMARY": "教電腦提出建議",
+            "DESCRIPTION": "在Scratch中創建一個移動應用程式,根據人們的興趣推薦旅遊景點。"
+        },
+        "SORTINGHAT": {
+            "TITLE": "排序帽子",
+            "SUMMARY": "教電腦識別語言的使用",
+            "DESCRIPTION": "創建一個像哈利波特一樣的分類帽子,根據你的說法將你帶入學校。"
+        },
+        "ROCKPAPERSCISSORS": {
+            "TITLE": "搖滾,紙,剪刀",
+            "SUMMARY": "教一台電腦識別形狀",
+            "DESCRIPTION": "在Scratch中製作一個岩石,紙張,剪刀遊戲,學習識別手形。"
+        },
+        "JUDGEABOOK": {
+            "TITLE": "判斷一本書",
+            "SUMMARY": "教電腦識別視覺風格",
+            "DESCRIPTION": "用Scratch製作遊戲,以測試是否真的可以通過封面判斷一本書。"
+        },
+        "LOCATELARRY": {
+            "TITLE": "找到拉裡",
+            "SUMMARY": "教電腦查找圖片中的內容",
+            "DESCRIPTION": "製作一個\"哪裡的Wally？\" Scratch中的風格遊戲,並教電腦找到你的角色。"
+        },
+        "CONFUSED": {
+            "TITLE": "困惑",
+            "SUMMARY": "教電腦識別水果",
+            "DESCRIPTION": "瞭解電腦如何被混淆,如果受到嚴重訓練,就會犯錯誤。"
+        },
+        "SCHOOLLIBRARY": {
+            "TITLE": "學校圖書館",
+            "SUMMARY": "教電腦提出建議",
+            "DESCRIPTION": "在Scratch中創建一個學校圖書館員,建議讀者可能適合閱讀。"
+        },
+        "WHATTWITTERTHINKS": {
+            "TITLE": "What does Twitter think?",
+            "SUMMARY": "Teach a computer to measure public opinion",
+            "DESCRIPTION": "Create a sentiment analysis tool in Scratch to analyze discussion on Twitter"
+        },
+        "NOUGHTSANDCROSSES": {
+            "TITLE": " Noughts＆Crosses ",
+            "SUMMARY": "教電腦玩遊戲",
+            "DESCRIPTION": "在Scratch中創造一個沒有的東西並穿過遊戲來學習如何擊敗你。"
+        },
+        "TOPTRUMPS": {
+            "TITLE": "頂級特朗普",
+            "SUMMARY": "教電腦玩遊戲",
+            "DESCRIPTION": "訓練一台電腦,以便能夠在Scratch中玩頂級特朗普紙牌遊戲。"
+        },
+        "HEADLINES": {
+            "TITLE": "頭條新聞",
+            "SUMMARY": "測試電腦識別語言使用的能力",
+            "DESCRIPTION": "訓練電腦識別全國性報紙的頭條新聞。"
+        },
+        "FINDIT": {
+            "TITLE": "Find It!",
+            "SUMMARY": "Teach a computer to recognise pictures",
+            "DESCRIPTION": "Make a hide-and-seek game for your mobile phone"
+        }
+    },
+    "TEACHER": {
+        "MENU": {
+            "TITLE": "管理",
+
+            "RESTRICTIONS": {
+                "TITLE": "限制",
+                "DESCRIPTION": "審核適用於您班級的限制和限制"
+            },
+            "APIKEYS": {
+                "TITLE": " API金鑰",
+                "TITLELONG": " Watson API Keys ",
+                "DESCRIPTION": "設置IBM Watson憑據以使您的類能夠創建機器學習模型"
+            },
+            "STUDENTS": {
+                "TITLE": "學生",
+                "TITLELONG": "學生管理",
+                "DESCRIPTION": "為您班級的學生創建,重置和刪除登錄"
+            },
+            "SUPERVISION": {
+                "TITLE": "監督",
+                "DESCRIPTION": "審核學生創建的專案"
+            },
+
+            "ADVANCEDOPTIONS": "高級選項",
+
+            "DELETECLASS": {
+                "TITLE": "刪除課程",
+                "DESCRIPTION": "這將刪除您和您班級中所有學生的帳戶"
+            },
+
+            "CANYOUHELP": {
+                "TITLE": "你能幫忙嗎？",
+                "DESCRIPTION": "請分享您如何使工具更好的經驗和想法"
+            },
+
+            "NOTAUTHORISED": "您無權訪問您班級的教師頁面。"
+        },
+        "APIKEYS": {
+            "TITLE": "管理: IBM Watson API金鑰",
+
+            "ADDNEWCREDENTIALS": "添加新憑據",
+            "ADDAPIKEY": "添加新的API金鑰",
+            "REMOVE": "刪除",
+
+            "NO_TEXT_CREDENTIALS": "您沒有任何助理憑據。這意味著無法為<strong>文本</strong>專案培訓模型。",
+            "NO_IMAGE_CREDENTIALS": "您沒有任何Visual Recognition API金鑰。這意味著無法為<strong>圖像</strong>專案訓練模型。",
+
+            "NOTAUTHORISED": "您無權訪問您班級使用的Watson API金鑰。",
+            "MANAGEDCLASS": "您的班級使用的API金鑰正在為您管理。",
+
+            "HELP_STEPBYSTEP_GUIDE": "如果您不確定該怎麼做,請按照<a href ='https://github.com/IBM/taxinomitis-docs/raw/master/docs/pdf/machinelearningforkids-apikeys.pdf'>分步指南</a>。如果您需要任何説明,請<strong> <a style ='cursor: pointer;' ui-sref='help'>取消聯繫</a> </strong>。",
+
+            "INTRO_WATSONASSISTANT": " <span class ='mlprojecttype'> text </ span>專案的訓練機器學習模型使用<a class='mlprojecttype' href ='https://www.ibm.com/watson/services/conversation'> Watson Assistant </a> ",
+            "INTRO_VISUALRECOGNITION": " <span class ='mlprojecttype'> images </ span>專案的訓練機器學習模型使用<a class ='mlprojecttype' href ='https://www.ibm.com/watson/services/visual-recognition'> Watson Visual Recognition </a> ",
+
+            "ERROR_FETCHING_WATSONASSISTANT": "無法獲取您的Watson助手密碼",
+            "ERROR_FETCHING_VISUALRECOG": "無法獲取您的Visual Recognition API金鑰",
+
+            "USERNAME": "用戶名",
+            "PASSWORD": "密碼",
+            "APIKEY": " API金鑰",
+
+            "NUMBER_OF_ML_MODELS": " ML型號數量",
+            "UNKNOWN": "未知",
+            "UNLIMITED": "無限",
+
+            "LIMIT_TEXT_PROJECTS": "學生可以擁有的文本機器學習模型的數量: ",
+            "LIMIT_IMAGE_PROJECTS": "學生可以擁有的機器學習模型數量: ",
+
+            "ADD_API_KEYS": {
+                "ASSISTANT_TITLE": "Add Watson Assistant credentials",
+                "VISUAL_RECOGNITION_TITLE": "Add Visual Recognition API key",
+
+                "USED_FOR_TEXT_PROJECTS": "These will be used when your students train models in text projects.",
+                "USED_FOR_IMAGE_PROJECTS": "These will be used when your students train models in images projects.",
+
+                "HIDDEN_FROM_STUDENTS": "This will not be shown to students in your group.",
+
+                "PRICING_PLAN": "Which Pricing Plan did you use?",
+                "ENTER_APIKEY": "Please enter the API key below",
+                "ENTER_PASSWORD": "Please enter the username and password below",
+
+                "CREDENTIALS_TYPE": "What did you create in Watson Assistant?"
+            }
+        },
+        "RESTRICTIONS": {
+            "TITLE": "Administration : Restrictions",
+
+            "ASK_FOR_CHANGES": "If any of these restrictions cause a problem for your group, please <strong><a href='/help'>get in touch</a></strong>.",
+
+            "CLASS_LIMITS": {
+                "TITLE": "Limits for your class",
+                "NUM_USERS": "You can have up to <span class='mlprojecttype'>{{ num }}</span> users (including students and teachers) in your group.",
+                "NUM_TEXT_MODELS": "Your class is allowed to have up to <span class='mlprojecttype'>{{ num }}</span> machine learning models in total across all their <span class='mlprojecttype'>text</span> projects.",
+                "NUM_IMAGE_MODELS": "Your class is allowed to have up to <span class='mlprojecttype'>{{ num }}</span> machine learning models in total across all their <span class='mlprojecttype'>images</span> projects.</div>"
+            },
+            "PROJECT_LIMITS": {
+                "TITLE": "Limits for projects created by your students",
+                "NUM_PROJECTS": "Each of your students is allowed to have up to <span class='mlprojecttype'>{{ num }}</span> projects.",
+                "TYPES": "Your students can create projects to recognise <span class='mlprojecttype'>{{ types }}</span>.",
+                "TRAINING_DATA": "Each <span class='mlprojecttype'>{{ type }}</span> project can have up to <span class='mlprojecttype'>{{ num }}</span> training data examples. "
+            },
+            "EXPIRY": {
+                "TITLE": "To help you avoid the limits for number of machine learning models:",
+                "TIME_LIMIT": "Machine learning models created for <span class='mlprojecttype'>{{ type }}</span> projects will automatically be deleted after <span class='mlprojecttype'>{{ num }}</span> hours.",
+                "DONT_WORRY": "(Don't worry! Training data will not be deleted, so students can always train a new machine learning model again if they still need it after this.)"
+            },
+
+            "NOT_AUTHORIZED": "You are not authorized to access the restrictions in place for your class."
+        },
+        "SUPERVISION": {
+            "TITLE": "Administration : Student projects",
+
+            "INTRO_1": "This page displays a list of all of the projects that your class currently has. You can use it to review what they're working on.",
+            "INTRO_2": "If you've hit the limit for the number of machine learning models that your class can create, you can use this to see which projects currently have a machine learning model, and delete any that you think are no longer needed.",
+
+            "NO_PROJECTS_1": "None of the students in your class currently have any projects.",
+            "NO_PROJECTS_2": "Once your students start creating projects, come back here to see an overview of their work.",
+
+            "NAME": "Name",
+            "TYPE": "Type",
+            "STUDENT": "Student",
+            "MODELS": "ML models",
+
+            "DELETE": "Click the icon to delete",
+
+            "NOT_AUTHORIZED": "You are not authorized to access the list of projects for all students in your class."
+        },
+        "STUDENTMANAGEMENT": {
+            "TITLE": "Administration : Student management",
+
+            "CREATE_FIRST_STUDENT": "Click on the 'plus' button on the right to create the first student",
+            "ADD": "Add new student",
+            "NEW_USERNAME": "Choose a unique username",
+            "ALPHANUMERIC": "Only use letters and numbers",
+
+            "NOT_LOGGED_IN": "Not logged in yet",
+
+            "RESET_PASSWORD": "Reset password",
+            "RESET_ALL_PASSWORDS": "Reset password for all students",
+
+            "DELETE_STUDENT": "Delete student account",
+
+            "NOT_AUTHORIZED": "You are not authorized to access the list of students in your class."
+        }
+    },
+    "HELP": {
+        "CONTACT": "如果您有任何問題或疑問,請發送電子郵件至Dale.Lane@uk.ibm.com ",
+        "GETTINGSTARTED": {
+            "TITLE": "入門？",
+            "INTRO": "使用簡短的入門指南下載PDF: ",
+            "MANAGED": "託管班級帳戶",
+            "MANAGEDEXPL": "對於學校教師,編碼組領導或其他志願者",
+            "UNMANAGED": "未管理的班級帳戶",
+            "UNMANAGEDEXPL": "對於IBM員工,或管理自己的班級帳戶的教師和編碼組負責人"
+        },
+        "FAQS": {
+            "TITLE": "想知道更多？",
+            "INTRO1": "有什麼不行嗎？",
+            "INTRO2": "下面的列表包含我經常聽到的問題和問題。如果您看到與您的問題類似的內容,請點擊摘要以獲取更多資訊。",
+            "INTRO3": "如果你仍然卡住了,或者你遇到了問題,我還沒有列入名單,對不起！請<a href='mailto:dale.lane@uk.ibm.com'>給我發電子郵件</a>或<a href='https://github.com/IBM/taxinomitis/issues'>創建問題報告</a>,以便我可以提供幫助。"
+        },
+
+        "SCRATCH": {
+            "TITLE": "劃痕問題",
+
+            "Q1": "我不知道如何讓Scratch工作",
+            "Q1-A-1": "兒童機器學習使用Scratch 2. Scratch需要Adobe Flash才能工作,所以你需要使用可以使用Flash的作業系統和網路流覽器（這意味著現在不需要iPad）對不起）。",
+            "Q1-A-2": "如果你不確定如何啟用Flash,你可以<a href ='https://github.com/IBM/taxinomitis-docs/raw/master/docs/pdf/machinelearningforkids-scratchx.pdf'>下載一份文檔,其中包含一些讓Scratch正常工作的技巧</a>。",
+
+            "Q2": "在\"載入專案\"和\"保存專案\"的耐擦傷菜單不工作",
+            "Q2-A-1": "如果你在MacOS使用Safari和劃痕功能表\"檔- ＆GT; 載入專案\"和\"檔 - ＆gt; 保存專案\"菜單不起作用,可能是您在安全模式下運行。",
+            "Q2-A-2": " <a href='https://github.com/IBM/taxinomitis-docs/raw/master/docs/pdf/safari-scratch-safemode.pdf'>按照此處的說明進行操作/ a>如何檢查和修復此問題。",
+
+            "Q3": " Scratch中的機器學習分類器塊不起作用",
+            "Q3-A-1": "偶爾,機器學習模型的Scratch塊可能會丟失與伺服器的連接。當發生這種情況時,它們將停止返回結果。",
+            "Q3-A-2": "您可以使用\"更多塊\"調色板中的彩色狀態指示燈檢查是否發生了這種情況。",
+            "Q3-A-3": "如果機器學習劃痕塊旁邊的狀態指示燈為紅色,通常表示出現問題。這可能是暫時性問題。嘗試保存專案（使用'檔' - ＆gt;'保存專案'）,然後刷新流覽器頁面。如果狀態指示燈在頁面重新載入後變為綠色,您可以載入專案（使用'檔' - ＆gt;'載入專案'）來拾取您離開的位置。",
+            "Q3-A-4": "如果重新載入頁面後狀態指示燈仍為紅色,那麼機器學習模型可能出現問題。請嘗試進入\"學習與安裝\"。測試\"頁面的專案,這是在你的模型中的任何錯誤資訊都可以找到。",
+            "Q3-A-5": "如果機器學習劃痕塊旁邊的狀態指示燈為綠色,那麼塊應該正常工作。如果您沒有得到他們期望的回應,請嘗試轉到\"學習\" ＆安培; 測試\"頁面並檢查模型返回的結果。",
+
+            "Q5": "我可以使用任何版本的Scratch嗎？",
+            "Q5-A-1": "您需要使用由兒童機器學習網站提供的Scratch版本。可以通過按一下專案頁面中的Scratch（或'Scratch 3'）按鈕來啟動它。",
+
+            "Q6": "Scratch 3 is only saving projects to the 'Downloads' folder",
+            "Q6-A-1": "When you click 'File' -> 'Save to your computer' in Scratch 3, your Scratch project is saved to your computer.",
+            "Q6-A-2": "Some teachers reported a problem that this saved to the Downloads folder, on a computer where students don't have access in Windows to the Downloads folder. The result was that students were not able to access their saved projects.",
+            "Q6-A-3": "If you have this problem, you need to look in your web browser settings for a setting like 'Ask where to save each file before downloading'. If you enable that, your students will be able to choose where their projects are saved."
+        },
+
+        "TRAININGUI": {
+            "TITLE": "培訓UI問題",
+
+            "Q1": "將圖像拖入訓練桶（用於圖像專案）不起作用",
+            "Q1-A-1": "如果您使用的是Safari或Internet Explorer,則將圖像拖入訓練桶中將無效。",
+            "Q1-A-2": "對此感到抱歉。如果您可以使用其他流覽器,如Firefox或Chrome,請執行此操作。否則,您可以按一下\"www\"按鈕並粘貼培訓圖片的URL。"
+        },
+
+        "MODELS": {
+            "TITLE": "錯誤訓練機器學習模型",
+
+            "Q1": " \"沒有設置Watson憑證\" ",
+            "Q1-A-1": "工具中的機器學習模型是使用IBM Watson API創建的。",
+            "Q1-A-2": "如果您有一個\"非託管 \"類帳戶,那麼您的教師或組長需要提供IBM Cloud的Watson API憑據才能實現此目的。有關如何使用的分步說明他們可以這樣做是在本頁頂部的\"入門\"文檔中。",
+
+            "Q2": " \"您班級使用的Watson憑證被拒絕了\" ",
+            "Q2-A-1": "工具中的機器學習模型是使用IBM Watson API創建的。",
+            "Q2-A-2": "如果你有一個\"非託管\"類帳戶,從IBM的雲,然後你的老師或領導小組組長將提供了沃森API憑據這個工作（如描述\"開始\"本頁頂部的文檔。",
+            "Q2-A-3": "但是,提供的憑據目前無法正常工作。最可能的原因是憑據從最初提供的IBM Cloud中刪除。如果不是這樣,那麼教師提供Watson憑據的組或領導者需要返回IBM Cloud儀錶板以檢查他們創建的Watson Assistant或Visual Recognition服務的狀態。",
+
+            "Q3": " \" Watson Assistant API鍵沒有更多工作區可用\" ",
+            "Q3-A-1": "工具中的機器學習模型是使用IBM Watson API創建的。",
+            "Q3-A-2": "由教師創建的Watson Assistant（以前稱為Watson Conversation）憑據對可用於創建的機器學習模型的數量有限制。這顯示在IBM Cloud UI中,其中憑據是創建,稱為\"工作區\"。",
+            "Q3-A-3": "如果超出此限制,嘗試訓練新機器學習模型將失敗,並將顯示以下消息: ",
+            "Q3-A-4": "您的班級已經創建了他們允許的最大模型數量。請讓您的老師或組長知道他們的\" Watson Assistant API金鑰沒有更多可用的工作空間\"。",
+            "Q3-A-5": "如果擁有成功訓練模型的學生然後刪除他們的模型,這將釋放工作空間供其他學生使用。",
+            "Q3-A-6": "將來避免此錯誤的一種方法是縮小班級規模。如果學生數量少於Watson Assistant（以前稱為Conversation）證書所支持的工作空間數量,那麼限制將不會是打了。",
+            "Q3-A-7": "另一種避免此錯誤的方法是向該類添加其他Watson Assistant API金鑰,或使用具有更高限制的Watson Assistant實例\" plan \"。",
+
+            "Q4": " \" Watson Visual Recognition API鍵沒有更多可用的分類器\" ",
+            "Q4-A-1": "工具中的機器學習模型是使用IBM Watson API創建的。",
+            "Q4-A-2": "教師創建的Watson Visual Recognition憑據對可用於創建的機器學習模型的數量有限制。這將顯示在創建憑據的IBM Cloud UI中,其中被稱為\"自訂分類器\"。",
+            "Q4-A-3": "如果超出此限制,嘗試訓練新的機器學習模型將失敗,並將顯示以下消息: ",
+            "Q4-A-4": "您的班級已經創建了他們允許的最大模型數量。請讓您的老師或組長知道他們的\" Watson Visual Recognition API金鑰沒有更多可用的分類器\"。",
+            "Q4-A-5": "如果擁有成功訓練模型的學生然後刪除他們的模型,這將釋放自訂分類器以供其他學生使用。",
+            "Q4-A-6": "將來避免此錯誤的一種方法是縮小班級規模。如果學生數量少於Watson Visual Recognition憑證支持的自訂分類器數量,則不會達到限制。",
+            "Q4-A-7": "避免此錯誤的另一種方法是向該類添加其他Watson Visual Recognition API金鑰,或使用具有更高限制的Watson Visual Recognition實例\" plan \"。",
+
+            "Q5": " \" Watson ...目前限制其API金鑰\" ",
+            "Q5-A-1": "工具中的機器學習模型是使用IBM Watson API創建的。",
+            "Q5-A-2": "如果您有一個\"非託管\"類帳戶,那麼您的教師或組長將需要從IBM Cloud提供Watson API憑據才能實現此目的。",
+            "Q5-A-3": "如果創建了免費帳戶,他們將對新機器學習模型的請求率施加限制。在正常使用中,這不會影響課程。但是,如果學生得到\"沒有更多可用的工作空間\"或\"沒有更多可用的分類器\"錯誤（如上所述）但是然後繼續每秒多次按一下\"訓練新機器學習模型 \"按鈕幾分鐘,然後是速率限制將適用。",
+            "Q5-A-4": "在這種情況下,將向學生顯示這樣的資訊: ",
+            "Q5-A-5": "你的班級要求太多,乙太快的速度創建機器學習模型。請立即停止並讓你的老師或小組負責人知道\" Watson Assistant服務目前限制他們的速度API金鑰\" ",
+            "Q5-A-6": "限速不是由兒童機器學習網站應用或控制的。它通常是暫時的,最好通過等待一小段時間來解決。",
+            "Q5-A-7": "如果學生點擊\"訓練新機器學習模型\"按鈕並獲得\"沒有更多工作空間可用\"或\"沒有更多可用的分類器\"錯誤（如上所述）,然後他們應該意識到反復點擊按鈕不會解決問題,實際上會讓其他人更糟糕。",
+
+            "Q6": "我一直在等待模特訓練多年！",
+            "Q6-A-1": "嘗試刷新頁面。",
+            "Q6-A-2": "頁面應每隔30秒檢查一次機器學習模型的狀態,但非常偶爾會停止檢查,因此您可能正在等待模型實際為您準備好。",
+            "Q6-A-3": "如果超過幾分鐘,則需要通過刷新/重新載入頁面進行檢查。",
+            "Q6-A-4": "如果超過十分鐘,可能值得考慮重新開機（按一下取消按鈕,然後按一下按鈕再次訓練新的機器學習模型）。"
+        },
+
+        "TEACHERUI": {
+            "TITLE": "教師/管理員使用者介面問題",
+
+            "Q2": "教師頁面清單中缺少學生帳戶",
+            "Q2-A-1": "用於兒童機器學習的使用者管理是使用協力廠商服務實施的,<a href='https://auth0.com'> Auth0 </a>。",
+            "Q2-A-2": "有時,Auth0返回的學生名單可能會過時,並且無法反映最近創建的學生（或類似地,仍然顯示最近被刪除的學生）。",
+            "Q2-A-3": "在這些情況下,學生通常已成功創建（或刪除）,只是顯示的學生清單不反映最近的更新。",
+            "Q2-A-4": " Auth0通常會在其狀態頁面上報告此類事件為<a href='https://status.auth0.com/incidents/0sk1d3hjlw0m'>使用者索引延遲</a>或<a href ='https://status.auth0.com/incidents/t8995b9jggx5'>他們的搜索API問題</a>。",
+            "Q2-A-5": "在這些情況下,最好的辦法是等待Auth0索引趕上來。",
+
+            "Q4": "為什麼機器學習模型會自動刪除？",
+            "Q4-A-1": "這是學校首次開發兒童機器學習時學校要求的功能。它來自於一個班級在任何特定時間可以擁有多少機器學習模型的限制,並且需要使管理這個限制變得容易。",
+            "Q4-A-2": "不要求孩子在課後清理並刪除他們的模型（為了讓下一個課程能夠創建模型）,該工具可以通過刪除課程結束後的模型。這樣可以輕鬆運行下一課,以及之後的下一課,無需手動清理。",
+            "Q4-A-3": "刪除模型之前的時間限制是可配置的。在一所學校,課程長達1或2小時,兩小時後刪除模型可能是明智的。對於每週編碼俱樂部,六天可能更適合確保在每次新的俱樂部會議之前清理模型。",
+            "Q4-A-4": "要查看課程的時間限制,請訪問教師頁面的<a href='https://machinelearningforkids.co.uk/#!/teacher/restrictions'>限制部分< / a>。",
+            "Q4-A-6": " <em>注意: 只有機器學習模型會被自動刪除,而不是用於創建它們的訓練資料。因此,如果某個項目的學生自動刪除,學生仍在繼續,他們總是可以再次按一下\"Train\"按鈕再次創建模型。</ em> "
+        },
+
+        "ACCOUNTISSUES": {
+            "TITLE": "帳戶問題",
+
+            "Q1": "創建帳戶或使用\"之間有什麼區別\"立即嘗試\"\"？",
+            "Q1-A-1": "正在使用\"現在嘗試\"表示無需登錄或創建帳戶。學生無需記住密碼,也無需教師使用提供個人資訊。它還為教師節省了管理學生帳戶所需的時間。",
+            "Q1-A-2": "但是,創建一個帳戶確實可以實現其他功能。學生可以保存他們的工作並在以後的課程中回到它。他們可以與班上的其他學生一起工作。他們可以從家裡登錄並向他們的家人展示他們的成就。",
+            "Q1-A-3": "差異摘要如下: ",
+
+            "CREATE_ACCOUNT": "創建一個帳戶",
+            "TRAINMODELS": "訓練機器學習模型以識別...... ",
+            "USE_SCRATCH": "使用Scratch的機器學習模型",
+            "CREATE_PROJECTS": "創建項目",
+            "ONE_PROJECT": " 1個項目",
+            "MULTIPLE_PROJECTS": "多個項目",
+            "SAVE_PROJECTS": "保存並載入專案",
+            "WORK_ON_PROJECTS": "致力於機器學習項目... ",
+            "FEW_HOURS": "幾個小時",
+            "UNTIL_DELETION": "直到你刪除它們",
+            "ONE_COMPUTER": "來自一台電腦",
+            "ONLINE": "線上任何地方",
+            "BY_YOURSELF": "你自己",
+            "WITH_CLASSMATES": "與同學們",
+
+            "Q2": "我創建了一個班級帳戶但我老師的登錄不起作用",
+            "Q2-A-1": "您需要先驗證您的電子郵寄地址,然後才能登錄。",
+            "Q2-A-2": "當您創建班級帳戶時,會向您提供的電子郵寄地址發送一封電子郵件,並附帶一個連結以點擊該連結。如果您點擊該連結,您的電子郵寄地址將被驗證並且類帳戶將被啟動。您應該可以立即登錄。",
+            "Q2-A-3": "如果您還沒有看到驗證郵件,請確保它沒有進入您的垃圾郵件資料夾。",
+            "Q2-A-4": "如果你仍然找不到它,請<a href='mailto:dale.lane@uk.ibm.com'>讓我知道</a>,我會盡力幫助。",
+
+            "Q3": "刪除帳戶",
+            "Q3-A-1": "學生帳戶",
+            "Q3-A-2": "學生不能刪除自己的帳戶。",
+            "Q3-A-3": "教師可以隨時通過訪問\"教師\"頁面並按一下要刪除的學生帳戶旁邊的\"刪除學生帳戶\"按鈕來刪除學生帳戶。",
+            "Q3-A-4": "這將刪除存儲的關於該學生及其所有專案和機器學習模型的所有資訊。",
+            "Q3-A-5": "它無法撤銷。",
+            "Q3-A-6": "教師帳戶",
+            "Q3-A-7": "刪除教師帳戶將刪除整個班級及其中的所有學生帳戶。它無法撤銷。",
+            "Q3-A-8": "這可以通過點擊<a href='https://machinelearningforkids.co.uk/teacher'>您的教師頁面的高級選項部分中的\"刪除班級\"按鈕來完成</a> ",
+
+            "Q4": "關於使用者存儲了哪些資訊？",
+            "Q4-A-1": "Teacher accounts",
+            "Q4-A-2": "I store the username and email address that you provide when you create the account, so that I can keep in touch with you.",
+            "Q4-A-3": "Student accounts",
+            "Q4-A-4": "I store the usernames for student accounts, so that I can let them log in. I have no email addresses or contact details for students. I have no other personally identifying information about students.",
+            "Q4-A-5": "I also <a href='https://github.com/IBM/taxinomitis-docs/raw/master/docs/pdf/machinelearningforkids-schools.pdf'>recommend that students are given generic usernames</a> (e.g. student1) so that students are not identifiable outside of their school or coding group.",
+            "Q4-A-6": "General information stored about all accounts",
+            "Q4-A-7": "User management for Machine Learning for Kids is implemented using the third party service, <a href='https://auth0.com/'>Auth0</a>. They store the IP address that you last logged into Machine Learning for Kids from, and the type of browser you used. I've never found a reason to use that, but it is stored if I did want to go and look for it.",
+            "Q4-A-8": "Errors that happen in the web browser are captured using the third party service, <a href='https://sentry.io/'>Sentry</a>. If something goes wrong, it will capture information about the error, including your username, IP address, type of browser you were using, and a technical description of what went wrong.",
+            "Q4-A-9": "I use <a href='https://www.google.com/analytics/'>Google Analytics</a> so that I know how many users visit Machine Learning for Kids each day. Although it captures information such as geographic location and browser type, this is only ever displayed to me in an anonymised aggregate way."
+        }
+    }
+}
